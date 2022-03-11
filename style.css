@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,600');
+
+:root {
+    --white: white;
+    --green: #19e356;
+    --purple: #9c19e3;
+    --black: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 5rem;
+    color: var(--green);
+    text-transform: uppercase;
+    outline: 5px solid var(--white);
+    outline-offset: .25em;
+    display: inline-block;
+    margin: .5em 0 .5em;
+    letter-spacing: 0px;
+    border-radius: 5px;
+}
+
+h1 span {
+    font-weight: 300;
+    color: var(--purple);
+    letter-spacing: 25px;
+    margin-left: .3em;
+}
+
+p strong {
+    color: var(--purple)
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: .5em;
+}
+
+.btn {
+    display: inline-block;
+    padding: .7em 1.7em;
+    background: var(--green);
+    color: var(--black);
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    position: static;
+    bottom: 220px;
+}
+    
+.btn:hover {
+    background: darken(--green, 10%);
+}
+
+.hero {
+    background-color: #333;
+    background-image: url(//unsplash.it/1000/600);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+    padding: 1em;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: var(--white);
+    height: auto;
+    padding: 10vh 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.coisa-extra {
+    background-color: #333;
+    background-image: url(//unsplash.it/1000/599);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: auto;
+    padding: 15vh .5em;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coisa-extra .btn {
+    align-self: flex-end;
+    margin-right: .7em;
+    margin-top: 20em;
+}
+
+.coisa-extra p {
+    margin: 1em 8em;
+    line-height: 2;
+    flex-basis: 100%;
+}
+
+.footer {
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    height: 10vh;
+}
+
+.footer a{
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: var(--green);
+}
+
+@media (min-width: 40rem) {
+    .container {
+        flex-direction: row;
+    }
+}
