@@ -4,7 +4,7 @@ This is a Flexbox practice and learning process following [Flexbox - Flexbox Bas
 
 ### Links
 
-- Solution URL: [https://flexboxlayout.netlify.app/]
+- Result URL: [https://flexboxlayout.netlify.app/]
 
 ## My process
 
