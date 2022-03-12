@@ -21,11 +21,11 @@ This is a Flexbox practice and learning process following [Flexbox - Flexbox Bas
 
 ### What I learned
 
--To use flexbox in general
--To practice more using auto generated image
--That you can work thinking about the mobile design first and then switch to a desktop after
--About the background-blend-mode CSS property
--To use vh and vw CSS units more.
+To use flexbox in general
+To practice more using auto generated image
+That you can work thinking about the mobile design first and then switch to a desktop after
+About the background-blend-mode CSS property
+To use vh and vw CSS units more.
 
 ## Author
 
