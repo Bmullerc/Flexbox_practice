@@ -1,4 +1,4 @@
-# CodePen Home Flexbox - Flexbox Basic Layout Learning Process
+# Flexbox - Flexbox Basic Layout Learning Process
 
 This is a Flexbox practice and learning process following [Flexbox - Flexbox Basic Layout by Kevin Powell](https://codepen.io/kevinpowell/pen/xrWKBE).
 
